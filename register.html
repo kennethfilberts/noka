@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <a href="home.html" class="logo">NOKA 3</a>
+
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="register.html">Register Now</a></li>
+            <li><a href="heroes.html">Heroes</a></li>
+            <li><a href="esport.html">E-sport</a></li>
+        </ul>
+
+        <div class="icon">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section id="form">
+        <div class="form-header">
+            <h1>CREATE YOUR ACCOUNT</h1>
+        </div>
+        
+        <div class="form-content" method="GET" id="register-form">
+            <form action="">
+                <div class="form-fill">
+                    <input type="text" class="input" placeholder="Username" id="username">
+                </div>
+
+                <div class="gender">
+                    <div class="gender-bat">
+                        <input type="radio" name="gender" id="gender">
+                        <label for="gender" id="male">Male</label>
+
+                        <input type="radio" name="gender" id="gender">
+                        <label for="gender" id="female">Female</label>
+                    </div>
+                </div>
+        
+                <div class="form-fill">
+                    <input type="text" class="input" placeholder="Email Address" id="email">
+                </div>
+        
+                <div class="form-fill">
+                    <input type="password" class="input" placeholder="Password" id="password">
+                </div>
+
+                <div class="form-fill">
+                    <input type="password" class="input" placeholder="Confirm Password" id="cp">
+                </div>
+
+                <div class="form-fill">
+                    <input type="checkbox" name="tos" id="tos">
+                    <label for="tos">I am 13 years of age or older and agree to 
+                    the terms & conditions</label>
+                </div>
+
+                <div class="btn">
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="f-content">
+            <h1>NOKA 3</h1>
+            <p>Copyright © 2012-2021, NoKa 3. All Rights Reserved.</p>
+        </div>
+    </section>
+</body>
+
+<script src="./script.js"></script>
+
+</html>
